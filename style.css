@@ -74,7 +74,7 @@ a.a-1,a:hover{
     font-size: 16px;
   }
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
   .btn{
     display: block;
   }
@@ -111,7 +111,7 @@ a.a-1,a:hover{
   }
 }
 
-@media (max-width: 480px){
+@media (max-width: 768px){
   img{
     width: 100%;
     max-width: auto;
@@ -382,7 +382,7 @@ h1 {
     border: 1px solid #f2f5f7;
     text-align: center;
     font-size: 14px;
-    margin: 0;
+    margin: auto;
     padding: 15px;
 }
 
@@ -416,7 +416,7 @@ h1 {
     border: 1px solid #f2f5f7;
     text-align: center;
     font-size: 14px;
-    margin: 0;
+    margin: auto;
     margin-top: 25px;
 }
 
