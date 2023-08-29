@@ -58,6 +58,7 @@ a.a-1,a:hover{
   margin-right: 40px;
   cursor: pointer;
   display: none;
+  text-decoration: none;
 }
 
 #check{
