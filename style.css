@@ -178,8 +178,8 @@ span {
   padding: 18px;
   font-size: 19px;
   text-align: justify;
-  margin-right: 57px;
-  margin-left: 59px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   text-decoration: none;
 }
