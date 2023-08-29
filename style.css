@@ -65,7 +65,7 @@ a.a-1,a:hover{
   display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 768px){
   label.logo{
     font-size: 30px;
     padding-left: 50px;
