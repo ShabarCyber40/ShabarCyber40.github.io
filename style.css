@@ -78,8 +78,13 @@ a.a-1,a:hover{
   .btn{
     display: block;
   }
+}
 
-
+@media (max-width: 768px){
+  .img{
+     width: 100%;
+  }
+}
   ul{
     position: fixed;
     width: 100%;
