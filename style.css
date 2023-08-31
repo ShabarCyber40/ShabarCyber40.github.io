@@ -65,12 +65,12 @@ a.a-1,a:hover{
   display: none;
 }
 
-@media (max-width: 952px){
+@media (max-width: 768px){
   label.logo{
     font-size: 20px;
     padding-left: 35px;
     line-height: 80px;
-    color: black;
+    color: white;
   }
   nav ul li a{
     font-size: 16px;
