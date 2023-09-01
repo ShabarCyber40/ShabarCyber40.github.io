@@ -14,12 +14,12 @@ nav{
   background: #0082e6;
   height: 80px;
   width: 100%;
-
+  z-index: 1;
   
 }
 label.logo{
   color: white;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 80px;
   padding: 0 90px;
   font-weight: bold;
@@ -31,11 +31,11 @@ label {
 
 nav ul{
   float: right;
-  margin-right: 20px;
+  margin-right: 16px;
 }
 nav ul li{
   display: inline-block;
-  line-height: 80px;
+  line-height: 78px;
   margin: 0 5px;
 }
 nav ul li a{
@@ -81,7 +81,7 @@ a.a-1,a:hover{
   }
 }
 
-
+@media (max-width: 878px){
   ul{
     position: fixed;
     width: 100%;
@@ -92,7 +92,7 @@ a.a-1,a:hover{
     text-align: center;
     transition: all .5s;
     z-index: 1;
-
+  }
   }
 
   nav ul li{
