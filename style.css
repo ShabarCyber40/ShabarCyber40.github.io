@@ -18,7 +18,7 @@ nav{
 
 label.logo{
   color: white;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 80px;
   padding: 0 90px;
   font-weight: bold;
@@ -66,7 +66,7 @@ a.a-1,a:hover{
 
 @media (max-width: 868px){
   label.logo{
-    font-size: 23px;
+    font-size: 20px;
     padding-left: 37px;
     line-height: 80px;
     color: white;
