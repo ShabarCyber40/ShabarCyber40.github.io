@@ -110,7 +110,6 @@ a.a-1,a:hover{
 
   #check:checked ~ ul{
     left: 0;
-    position: relative;
   }
 }
 
