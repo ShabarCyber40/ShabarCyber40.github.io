@@ -110,6 +110,7 @@ a.a-1,a:hover{
 
   #check:checked ~ ul{
     left: 0;
+    position: relative;
   }
 }
 
@@ -131,7 +132,7 @@ a.a-1,a:hover{
 @media (max-width: 768){
   .span{
     font-size: 16px;
-    padding: 18px;
+    padding: 17px;
   }
 }
   
@@ -194,7 +195,7 @@ img {
 
 span {
   padding: 18px;
-  font-size: 19px;
+  font-size: 17px;
   text-align: justify;
   margin-right: auto;
   margin-left: auto;
