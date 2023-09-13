@@ -123,8 +123,7 @@ a.a-1,a:hover{
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 30px
-     z-index: 1;
+      margin-bottom: 30px;
     }
 
 /*--- ISI WEB ---*/
@@ -159,7 +158,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  z-index: 9999;
 }
 
 .gambar-bos {
@@ -170,8 +168,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px
-  z-index: 9999;
+  margin-bottom: 30px;
 }
 
 .gambar-internet {
@@ -183,7 +180,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  z-index: 9999;
 }
 
 .pembatas1 {
@@ -223,8 +219,8 @@ hr {
   padding: 18px;
   font-size: 18px;
   text-align: left;
-  margin-right: 40px;
-  margin-left: 57px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   top: 10px;
 }
@@ -233,8 +229,8 @@ hr {
   padding: 18px;
   font-size: 18px;
   text-align: left;
-  margin-right: 40px;
-  margin-left: 57px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
 }
 
@@ -255,7 +251,6 @@ hr {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  z-index: 9999;
 }
 
 .dampak-korban {
@@ -284,7 +279,6 @@ hr {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  z-index: 9999;
 }
 
 h2 {
