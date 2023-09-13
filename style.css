@@ -232,6 +232,7 @@ hr {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  top: 10px;
 }
 
 .mengenal-cyberbullying {
@@ -292,10 +293,10 @@ h2 {
 
 .dampak-emosional {
   padding: 18px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
-  margin-right: 40px;
-  margin-left: 57px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
 }
 
@@ -303,8 +304,8 @@ h2 {
   padding: 18px;
   font-size: 18px;
   text-align: left;
-  margin-right: 40px;
-  margin-left: 57px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
 }
 
@@ -318,10 +319,10 @@ h2 {
 
 .cara-mengatasi {
   padding: 18px;
-  font-size: 19px;
+  font-size: 18px;
   text-align: left;
-  margin-right: 40px;
-  margin-left: 57px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
 }
 
