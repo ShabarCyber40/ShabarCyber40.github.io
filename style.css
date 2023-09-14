@@ -190,7 +190,7 @@ img {
 
 span {
   padding: 18px;
-  font-size: 17px;
+  font-size: 16px;
   text-align: justify;
   margin-right: auto;
   margin-left: auto;
@@ -265,8 +265,8 @@ hr {
   padding: 18px;
   font-size: 18px;
   text-align: left;
-  margin-right: 40px;
-  margin-left: 57px;
+  margin-right: auto;
+  margin-left: auro;
   display: block;
 }
 
