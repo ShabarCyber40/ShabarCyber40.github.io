@@ -113,12 +113,6 @@ a.a-1,a:hover{
   }
 }
 
-  .gambar-bos {
-    width: 85%;
-    height: 45%;
-    position: sticky;
-    margin-bottom: 30px;
-    }
 
 /*--- ISI WEB ---*/
 
@@ -143,14 +137,16 @@ a.a-1,a:hover{
   margin-bottom: 30px;
 }
 
+.gambar-bos {
+    width: 85%;
+    height: auto;
+    margin-bottom: 25px;
+    align-items: center;
+    }
+
 .gambar-internet {
   width: 85%;
-  height: 65%;
-  position: relative;
-  padding: 20px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
   margin-bottom: 30px;
 }
 
@@ -217,12 +213,7 @@ hr {
 
 .gambar-cyberbullying {
   width: 70%;
-  height: 60%;
-  position: sticky;
-  padding: 10px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -245,12 +236,7 @@ hr {
 
 .gambar-dampak-bullying {
   width: 80%;
-  height: 60%;
-  position: sticky;
-  padding: 10px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -300,12 +286,7 @@ h2 {
 
 .stop-cyberbullying {
   width: 78%;
-  height: 50%;
-  position: sticky;
-  padding: 10px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
   margin-bottom: 20px;
 }
 
