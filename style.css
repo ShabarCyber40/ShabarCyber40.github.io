@@ -113,12 +113,11 @@ a.a-1,a:hover{
   }
 }
 
-
-    .gambar-bos {
-      width: 85%;
-      height: 45%;
-      position: sticky;
-      margin-bottom: 30px;
+  .gambar-bos {
+    width: 85%;
+    height: 45%;
+    position: sticky;
+    margin-bottom: 30px;
     }
 
 /*--- ISI WEB ---*/
@@ -141,28 +140,6 @@ a.a-1,a:hover{
   text-align: center;
   margin-top: 40px;
   padding: 30px;
-  margin-bottom: 30px;
-}
-
-img {
-  width: 65%;
-  height: 45%;
-  position: sticky;
-  padding: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
-
-.gambar-bos {
-  width: 65%;
-  height: 45%;
-  position: sticky;
-  padding: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 30px;
 }
 
