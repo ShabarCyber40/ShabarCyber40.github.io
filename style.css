@@ -116,6 +116,11 @@ a.a-1,a:hover{
 
 /*--- ISI WEB ---*/
 
+img {
+  width: 82%;
+  height: auto;
+}
+
 @media (max-width: 768){
   .span{
     font-size: 16px;
@@ -138,16 +143,21 @@ a.a-1,a:hover{
 }
 
 .gambar-bos {
-    width: 85%;
-    height: auto;
-    margin-bottom: 25px;
-    position: center;
+  width: 78%;
+  height: auto;
+  margin-bottom: 25px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
     }
 
 .gambar-internet {
-  width: 85%;
+  width: 67%;
   height: auto;
   margin-bottom: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pembatas1 {
