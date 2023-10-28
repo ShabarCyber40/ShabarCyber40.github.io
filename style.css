@@ -1,0 +1,433 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: helvetica;
+}
+
+
+
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: white;
+  font-size: 24px;
+  line-height: 80px;
+  padding: 0 90px;
+  font-weight: bold;
+}
+
+label {
+  font-family: monospace;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 84px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.a-1,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.btn{
+  font-size: 25px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+@media (max-width: 868px){
+  label.logo{
+    font-size: 20px;
+    padding-left: 37px;
+    line-height: 80px;
+    color: white;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px){
+  .btn{
+    display: block;
+  }
+}
+
+@media (max-width: 878px){
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 9;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 1;
+  }
+  
+
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: rgba(0, 0, 0, 0.0);
+    color: #0082e6;
+  }
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+
+/*--- ISI WEB ---*/
+
+
+
+img {
+  width: 82%;
+  height: auto;
+}
+
+@media (max-width: 768){
+  .span{
+    font-size: 16px;
+    padding: 17px;
+  }
+}
+  
+.perkenalan {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.mengenal-internet {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.gambar-bos {
+  width: 90%;
+  height: auto;
+  margin-bottom: 25px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  }
+
+.gambar-internet {
+ width: 70%;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ height: auto;
+ margin-bottom: 30px;
+}
+
+.pembatas1 {
+  font-size: 15px;
+  text-decoration: none;
+  margin:auto;
+  padding: 35px;
+}
+
+span {
+  padding: 18px;
+  font-size: 16px;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-decoration: none;
+}
+
+hr {
+  padding: 15px;
+  font-weight: bold;
+  color: black;
+  margin: auto;
+}
+
+.perkenalan {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.kolom-positif {
+  padding: 16px;
+  font-size: 17px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  top: 8px;
+}
+
+.kolom-negatif {
+  padding: 16px;
+  font-size: 17px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  top: 8px;
+}
+
+.mengenal-cyberbullying {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.gambar-cyberbullying {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  height: auto;
+  align-items: center;
+}
+
+.dampak-korban {
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.kolom-pelaku {
+  padding: 16px;
+  font-size: 17px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  top: 8px;
+}
+
+.gambar-dampak-bullying {
+  width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: auto;
+  margin-left: auto;
+  font-size: 22px;
+}
+
+.dampak-emosional {
+  padding: 16px;
+  font-size: 17px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  top: 8px;
+}
+
+.dampak-mental {
+  padding: 16px;
+  font-size: 17px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  top: 8px;
+}
+
+.mengatasi-cyberbullying {
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.cara-mengatasi {
+  padding: 16px;
+  font-size: 15,5px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  top: 8px;
+}
+
+.stop-cyberbullying {
+  width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.penutup-horeee {
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-weight: 20px;
+}
+
+.partner-text {
+  padding: 15px;
+  font-size: 18px;
+  margin-right: 57px;
+  margin-left: 63px;
+  display: block;
+  text-decoration: none;
+  text-align: justify-all;
+  font-weight: 20%;
+}
+
+.thanks {
+  font-size: 21px;
+  padding: 10px;
+  text-align: center;
+}
+
+.benerin {
+  margin-bottom: 25px;
+}
+
+/*---Table---*/
+
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #f2f5f7;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+    padding: 15px;
+}
+
+
+
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.table1 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+
+.table2 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #f2f5f7;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.table2 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.table2, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.table2 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+
+
+/*---Footer---*/
+
